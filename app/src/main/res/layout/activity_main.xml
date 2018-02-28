@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/share_to_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享到QQ"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/share_to_weixin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享到微信"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/share_to_weibo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享到微博"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/share_to_qq_zone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享到QQ空间"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/share_to_circle_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享到朋友圈"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/login_from_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入到QQ"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/login_from_weixin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入到微信"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/login_from_weibo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入到微博"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btn_show_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="调用友盟分享面板"
+        />
+
+</LinearLayout>
